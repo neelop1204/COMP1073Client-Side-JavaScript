@@ -1,0 +1,90 @@
+/* Resetting default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Base styles for headings */
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333; /* Adjust color as needed */
+}
+
+/* Base styles for paragraphs */
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #666; /* Adjust color as needed */
+}
+
+/* Button styles */
+button {
+    font-family: 'Roboto', sans-serif;
+    background-color: #007bff; /* Adjust color as needed */
+    color: #fff; /* Adjust color as needed */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 150px; /* Fixed width */
+    height: 40px; /* Fixed height */
+}
+
+button:hover {
+    background-color: #0056b3; /* Adjust color as needed */
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Story display styles */
+#story {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Adjustments for specific elements */
+h1 {
+    text-align: center;
+}
+
+/* Centering playback buttons */
+section:nth-child(2) {
+    align-items: center;
+}
+
+/* Define a class for the background color of the page */
+.bg-color {
+    background-color: #f0f0f0; /* Default background color */
+}
+
+/* Button styles */
+button.noun1 {
+    background-color: #007bff; /* Noun 1 button color */
+}
+
+button.verb {
+    background-color: #28a745; /* Verb button color */
+}
+
+button.adjective {
+    background-color: #ffc107; /* Adjective button color */
+}
+
+button.noun2 {
+    background-color: #dc3545; /* Noun 2 button color */
+}
+
+button.setting {
+    background-color: #17a2b8; /* Setting button color */
+}
+
+button:hover {
+    opacity: 0.8;
+}
